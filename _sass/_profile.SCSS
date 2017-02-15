@@ -18,6 +18,10 @@
     height: 50%;
 }
 
+#image-container img {
+    height: 100%;
+}
+
 #description-card {
     background: $GreyBackground;
 }
@@ -49,6 +53,7 @@
 
     #description-card {
         height: 52vh;
+        padding: 1em;
     }
 
     #description-card h3 {
