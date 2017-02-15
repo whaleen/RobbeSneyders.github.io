@@ -1,0 +1,61 @@
+degrees:
+  - title: Master of Mechanical Engineering, Mechatronics and Robotics
+    school: University of Leuven
+    period: 2015 - 2017
+    description: >
+      My master focusses on the challenges lying ahead in the domain 
+      of robotics and mechatronics, in which machines should be able 
+      to interact with their environment and with each other. 
+      Key aspects are optimization, decision making methods based on
+      intelligent sensor processing, and architectural composition 
+      patterns of systems of systems.
+
+  - title: Bachelor of Mechanical Engineering with Minor in Electrical Engineering
+    school: University of Leuven
+    period: 2011 - 2015
+    description: >
+      In my bachelor, I acquired a strong theoretical understanding 
+      of both mathematics and physics, and a problem solving mindset.
+      I chose for a focus on mechanics and electronics, which gave me
+      a deeper understanding of mechanics of materials, fluid dynamics, 
+      thermodynamics, and electromechanics.
+
+thesis:
+  - title: Usage Pattern Prediction by Matrix Decomposition
+    school: University of Leuven
+    period: 2016 - 2017
+    description: >
+      People display certain patterns when using appliances. The goal
+      of my thesis is to assess the potential of machine learning 
+      methods based on matrix decomposition to predict these patterns.
+      A basic understanding of general machine learning methods is 
+      needed to evaluate the results by comparison.
+
+courses:
+  - title: "Athens Course: Operational Research"
+    school: "Technical University of Lisbon"
+    period: "November 2016"
+    description: >
+      In the context of the Athens Programme, I followed a course 
+      on operational research at the Technical University of Lisbon.
+      Operational research aims to find optimal or near-optimal 
+      solutions to complex decision-making problems.
+
+  - title: "Athens Course: Spectral Signatures - from Foods to Fuels"
+    school: "Technical University of Madrid"
+    period: "November 2015"
+    description: >
+      In the context of the Athens Programme, I followed a course 
+      on spectroscopy at the Technical University of Madrid.
+      Spectroscopy is a non-invasive technique used to identify
+      and characterize materials by studying the interaction between 
+      the material and electromagnetic radiation.
+
+  - title: "Online Course: CS50: Introduction to Computer Science"
+    school: "Harvard University"
+    period: "January 2017"
+    description: >
+      Most of my knowledge about computer science has been 
+      self-taught. I followed the CS50 course online to get an
+      overview of the computer science fundamentals and fill in
+      any gaps in my knowledge.

@@ -1,0 +1,62 @@
+#profile-card {
+    background: $Primary;
+    text-align: center;
+}
+
+#profile-card .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#location {
+    margin-top: 0;
+}
+
+#image-container {
+    height: 50%;
+}
+
+#description-card {
+    background: $GreyBackground;
+}
+
+#description-card .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+}
+
+#description-card img {
+    margin-top: 2em;
+    height: 45px;
+}
+
+#description-card h3 {
+    text-align: center;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+@media (min-width: 1200px) { 
+    #profile-card {
+        height: 48vh;
+    }   
+
+    #description-card {
+        height: 52vh;
+    }
+
+    #description-card h3 {
+        width: 50vh;
+    }
+
+    #description-card img {
+        margin-top: 0;
+        height: 15%;
+    }
+}

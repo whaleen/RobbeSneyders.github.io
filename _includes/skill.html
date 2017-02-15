@@ -1,0 +1,21 @@
+<div id="skills">
+
+	<h3>
+	{% for proficient in include.skills.proficient %}
+		<span class="skill">{{ proficient }}</span>
+	{% endfor %}
+	</h3>
+
+	<h4>
+	{% for intermediate in include.skills.intermediate %}
+		<span class="skill">{{ intermediate }}</span>
+	{% endfor %}
+	</h4>
+
+	<h5>
+	{% for basic in include.skills.basic %}
+		<span class="skill">{{ basic }}</span>
+	{% endfor %}
+	</h5>
+
+</div>

@@ -1,0 +1,48 @@
+#project {
+	display: inline-block;
+	margin-top: 1em;
+}
+
+#project-image img {
+	width: 100%;
+}
+
+#project-image {
+	position: relative;
+	display: block;
+	-o-box-shadow:      0px 0px 10px #777;
+	-icab-box-shadow:   0px 0px 10px #777;
+	-khtml-box-shadow:  0px 0px 10px #777;
+	-moz-box-shadow:    0px 0px 10px #777;
+	-webkit-box-shadow: 0px 0px 10px #777;
+	box-shadow:         0px 0px 10px #777;
+}
+
+#project-overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: $PrimaryDark;
+	opacity: 0;
+	-webkit-transition: opacity 0.6s;
+    -moz-transition: opacity 0.6s;
+    transition: opacity 0.6s;
+   	vertical-align: middle;
+}
+
+#project-text {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+	text-align: center;
+   	color: White;
+   	padding: 0.5em;
+}
+
+#project-overlay:hover {
+	opacity: 0.8;
+}

@@ -1,0 +1,26 @@
+github:
+  - title: Modular²Recycler
+    image: assets/images/modular2recycler.jpg
+    link: https://github.com/RobbeSneyders/Modular2Recycler
+    tags: Android library, Java, Modular composition, XML
+
+  - title: This website
+    image: assets/images/thiswebsite.jpg
+    link: https://github.com/RobbeSneyders/RobbeSneyders.github.io
+    tags: HTML, CSS, Liquid
+
+  - title: Surebet Calculator MVP
+    image: assets/images/surebetcalculator.jpg
+    link: https://github.com/RobbeSneyders/SurebetCalculator-MVP
+    tags: Android app, Java, MVP pattern, XML
+
+other:
+  - title: Swipe Shortcuts
+    image: assets/images/swipeshortcuts.jpg
+    link: https://play.google.com/store/apps/details?id=com.cuttingedge.swipeshortcuts
+    tags: Android app, Java, SQL, XML
+
+  - title: Kotreview (offline)
+    image: assets/images/kotreview.jpg
+    link: assets/images/kotreview.jpg
+    tags: Website, Ruby on Rails, SQL, Javascript, HTML, CSS

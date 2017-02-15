@@ -1,0 +1,158 @@
+---
+layout: default
+---
+
+<div id="home">
+
+	<div id="profile-card">
+
+		<div class="container">
+
+		  	<h1 class="title_white">Robbe Sneyders</h1>
+
+		  	<div id="image-container">
+		  		<img src="assets/images/profile-pic.png" alt="profile picture"/>
+	  		</div>
+
+		  	<h3 class="text_white">23 years</h3>
+		  	<h3 id="location" class="text_white">Leuven, Belgium</h3>
+
+		</div>
+
+	</div>
+
+	<div id="description-card">
+
+		<div class="container">
+
+	  		<img src="assets/images/icon_robotics.svg" alt="robotics icon"/>
+
+	  		<h3>Senior year Masters in Mechanical Engineering, Mechatronics and Robotics</h3>
+
+	  		<img src="assets/images/icon_development.svg" alt="software development icon"/>
+
+	  		<h3>Software developer</h3>
+
+	  		<img src="assets/images/icon_machine_learning.svg" alt="machine learning icon"/>
+
+	  		<h3>Machine learning enthusiast</h3>
+
+		</div>
+
+	</div>
+
+	<div id="button" class="container">
+
+		<input class="button" type="button" value="View Resume" onClick="showResume()">
+
+	</div>
+
+	<script>
+		function showResume() {
+			document.getElementById('education').style.display = "block";
+			document.getElementById('abilities').style.display = "block";
+			document.getElementById('button').style.display = "none";
+		}
+	</script>
+
+	<div id="education" class="section">
+
+		<div class="container">
+
+			<h1 class="title_dark">Education</h1>
+
+			<hr class="divider">
+
+			<h2>Degrees</h2>
+				
+			{% for degree in site.data.education.degrees %}
+				{% include education.html education=degree %}
+			{% endfor %}
+
+			<hr>
+
+			<h2>Master's thesis</h2>
+
+			{% for thesis in site.data.education.thesis %}
+				{% include education.html education=thesis %}
+			{% endfor %}
+
+			<hr>
+
+			<h2>Extra courses</h2>
+
+			{% for course in site.data.education.courses %}
+				{% include education.html education=course %}
+			{% endfor %}
+
+		</div>
+
+	</div>
+
+	<div id="abilities" class="section">
+
+		<div class="container">
+
+			<h1 class="title_dark">Skills</h1>
+
+			<hr class="divider">
+
+			{% include skill.html skills=site.data.abilities.skills %}
+
+			<h1 class="title_dark">Languages</h1>
+
+			<hr class="divider">
+
+			<div class="row">
+
+				{% for lang in site.data.abilities.languages %}
+					{% include language.html language=lang %}
+				{% endfor %}
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<div id="projects" class="section">
+
+		<div class="container">
+
+			<h1 class="title_dark">Projects</h1>
+
+			<hr class="divider">
+
+			<h2>Github Projects</h2>
+
+			<div class="projects row">
+
+				{% for githubproject in site.data.projects.github %}
+				<div class="col-md-4">
+					{% include project.html project=githubproject %}
+				</div>
+				{% endfor %}
+
+			</div>
+
+			<hr>
+
+			<h2>Other projects</h2>
+
+			<div class="projects row">
+
+				<div class="col-md-2"></div>
+				{% for otherproject in site.data.projects.other %}
+					<div class="col-md-4">
+					{% include project.html project=otherproject %}
+					</div>
+				{% endfor %}
+				<div class="col-md-2"></div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>

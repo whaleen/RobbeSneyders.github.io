@@ -1,0 +1,37 @@
+skills:
+  proficient:
+    - Data analysis
+    - Problem Solving
+    - Java
+    - Python
+    - Android development
+    - MS Office
+
+  intermediate:
+    - Git
+    - Linux
+    - C
+    - Matlab
+    - Jupyter
+    - Latex
+
+  basic:
+    - Javascript
+    - SQL
+    - Ruby
+    - XML
+    - HTML
+    - CSS
+
+languages:
+  - title: Dutch
+    rating: Native Language
+
+  - title: English
+    rating: Fluent
+
+  - title: French
+    rating: Basic
+
+  - title: German
+    rating: Notion

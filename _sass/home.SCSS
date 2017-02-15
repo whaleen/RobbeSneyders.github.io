@@ -1,0 +1,104 @@
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+h3 {
+	font-family: Raleway-SemiBold;
+	font-weight: 500;
+}
+
+h4, h5, h6, p {
+    font-family: Raleway-Regular;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+.title_white {
+    color: White;
+    margin-bottom: 3%;
+}
+
+.text_white {
+    color: White;
+}
+
+.title_dark {
+	color: $PrimaryDark;
+	margin-top: 2em;
+}
+
+.divider {
+	border-color: $PrimaryDark;
+	margin-bottom: 2em;
+}
+
+.section .container {
+	padding-bottom: 4em;
+}
+
+#education {
+	display: none;
+}
+#abilities {
+	display: none;
+}
+
+#button {
+	text-align: center;
+	padding: 4em;
+	margin-bottom: -5em;
+}
+
+.button {
+	-moz-box-shadow: 0px 6px 10px -7px #1a237e;
+	-webkit-box-shadow: 0px 6px 10px -7px #1a237e;
+	box-shadow: 0px 6px 10px -7px #1a237e;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3f51b5), color-stop(1, #303f9f));
+	background:-moz-linear-gradient(top, #3f51b5 5%, #303f9f 100%);
+	background:-webkit-linear-gradient(top, #3f51b5 5%, #303f9f 100%);
+	background:-o-linear-gradient(top, #3f51b5 5%, #303f9f 100%);
+	background:-ms-linear-gradient(top, #3f51b5 5%, #303f9f 100%);
+	background:linear-gradient(to bottom, #3f51b5 5%, #303f9f 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3f51b5', endColorstr='#303f9f',GradientType=0);
+	background-color:#3f51b5;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Raleway-SemiBold;
+	font-size:20px;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1a237e;
+	border: none;
+}
+
+.button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #303f9f), color-stop(1, #3f51b5));
+	background:-moz-linear-gradient(top, #303f9f 5%, #3f51b5 100%);
+	background:-webkit-linear-gradient(top, #303f9f 5%, #3f51b5 100%);
+	background:-o-linear-gradient(top, #303f9f 5%, #3f51b5 100%);
+	background:-ms-linear-gradient(top, #303f9f 5%, #3f51b5 100%);
+	background:linear-gradient(to bottom, #303f9f 5%, #3f51b5 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#303f9f', endColorstr='#3f51b5',GradientType=0);
+	background-color:#303f9f;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+@import "profile";
+@import "education";
+@import "abilities";
+@import "projects";
